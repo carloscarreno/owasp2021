@@ -1,0 +1,1 @@
+docker run -d -p 192.168.56.101:8080:8080 -p 192.168.56.101:9090:9090 -e EXCLUDE_CATEGORIES="CLIENT_SIDE,GENERAL,CHALLENGE" -e EXCLUDE_LESSONS="SqlInjectionAdvanced,SqlInjectionMitigations" webgoat/webgoat
